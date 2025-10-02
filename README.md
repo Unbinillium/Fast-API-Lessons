@@ -7,3 +7,8 @@
 ```shell
 poetry run uvicorn src.main:app --reload 
 ```
+
+Переменные конфигурации хранятся в .env
+```shell
+PEREMENNAYA="/api/docs"
+```
